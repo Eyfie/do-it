@@ -1,15 +1,14 @@
-import { Box, Heading} from "@kuma-ui/core"
+import TaskForm from "./components/TaskForm"
 
 
 function TaskApp() {
 
 
   return (
-    <>
-      <Box as="main">
-        <Heading as="h1">Do it</Heading>
-      </Box>
-    </>
+      <main>
+        <h1>Do it</h1>
+        <TaskForm taskTitle="" taskContent="" taskDeadline="" taskId="" taskPriority=""/>
+      </main>
   )
 }
 
